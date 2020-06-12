@@ -1,121 +1,63 @@
-Introduction
-============
+# WebDashboard
+The purpose of this project is to gain insights into the agricultural market data of different commodities, e.g., Wheat, Corn, Barley, Oats etc. and present them in a dashboard. The data includes different attributes such as consumption, production, import, export, stocks, yield of the commodities. The data reports attributes on 125 countries and over 20 years timeline.
 
-[![npm version](https://img.shields.io/npm/v/admin-lte/latest.svg)](https://www.npmjs.com/package/admin-lte)
-[![Packagist](https://img.shields.io/packagist/v/almasaeed2010/adminlte.svg)](https://packagist.org/packages/almasaeed2010/adminlte)
-[![CDNJS](https://img.shields.io/cdnjs/v/admin-lte.svg)](https://cdnjs.com/libraries/admin-lte)
+• This project is generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7. <br>
+• The UI supports responsive layouts.<br>
+• For developing the visualizations, PSD Grain Data_small.xlsx has been used. <br>
+• For keeping the project simple, only "Wheat" from country "Canada" has been used for the calculations of the timeseries, barplot, crosstab, and pack layout graphs. <br>
+• The visualizations have been developed using chart.js and d3.js. <br>
+• The color palettes of the visualizations are carefully chosen to support color-blind users. <br>
+• The calculations have been performed using Tableau. To see more details, please open Canadian_Wheat.twb file with Tableau Desktop. <br>
+• For designing the Farmbot, [drift](https://www.drift.com/) is used.
 
-**AdminLTE** is a fully responsive administration template. Based on **[Bootstrap 4.4](https://getbootstrap.com)** framework and also the JS/jQuery plugin.
-Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops.
+# Desktop UI
+<img src="Web_UI.gif" width="100%">
 
-**Preview on [AdminLTE.io](https://adminlte.io/themes/v3)**
+# Mobile UI
+<img src="Mobile_UI.gif" width="40%">
 
-Looking for Premium Templates?
-------------------------------
-AdminLTE.io just opened a new premium templates page. Hand picked to ensure the best quality and the most affordable
-prices. Visit https://adminlte.io/premium for more information.
+## Interactive Tooltip
+<img src="Tooltip.gif" width="50%">
 
-!["AdminLTE Presentation"](https://adminlte.io/AdminLTE3.png "AdminLTE Presentation")
+## Dynamic Table
+<img src="Dynamic_Table.gif" width="50%">
 
-**AdminLTE** has been carefully coded with clear comments in all of its JS, SCSS and HTML files.
-SCSS has been used to increase code customizability.
+## Incorporated Graphs (D3.js)
+<img src="PacklayoutGraph.gif" width="50%">
+<img src="BarGraph.gif" width="50%">
 
-Installation
-------------
-There are multiple ways to install AdminLTE.
+## Farmbot
+<img src="Farmbot.gif" width="30%">
 
-#### Download:
+## How to run
+Please go to the project directory and run the following commands:
 
-Download from [Github releases](https://github.com/ColorlibHQ/AdminLTE/releases).
+Install all the dependencies
+> npm install package.json
 
-#### Using The Command Line:
+Run the server
+> npm start
 
-_**Important Note**: To install it via NPM/Yarn, you need at least Node.js 10 or higher._
+## Development server
 
-__Via NPM__
-```bash
-npm install admin-lte@^3.0 --save
-```
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-__Via Yarn__
-```bash
-yarn add admin-lte@^3.0
-```
+## Code scaffolding
 
-__Via Composer__
-```bash
-composer require "almasaeed2010/adminlte=~3.0"
-```
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-__Via Git__
-- Clone to your machine
-```
-git clone https://github.com/ColorlibHQ/AdminLTE.git
-```
+## Build
 
-Documentation
--------------
-Visit the [online documentation](https://adminlte.io/docs/3.0/) for the most
-updated guide. Information will be added on a weekly basis.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Browser Support
----------------
-- IE 10+
-- Firefox (latest)
-- Chrome (latest)
-- Safari (latest)
-- Opera (latest)
-- Microsoft Edge (latest)
+## Running unit tests
 
-Contribution
-------------
-Contribution are always **welcome and recommended**! Here is how:
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
-- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/AdminLTE.git```
-- Create a new branch
-- Make your changes
-- Create a pull request
+## Running end-to-end tests
 
-#### Compile dist files
-To compile the dist files you need nodejs/npm, clone/download the repo then:
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-1. `npm install` (install npm deps)
-2. _Optional:_ `npm run dev` (developer mode, autocompile with browsersync support for live demo)
-3. `npm run production` (compile css/js files)
+## Further help
 
-#### Contribution Requirements:
-- When you contribute, you agree to give a non-exclusive license to AdminLTE.io to use that contribution in any context as we (AdminLTE.io) see appropriate.
-- If you use content provided by another party, it must be appropriately licensed using an [open source](http://opensource.org/licenses) license.
-- Contributions are only accepted through Github pull requests.
-- Finally, contributed code must work in all supported browsers (see above for browser support).
-
-License
--------
-AdminLTE is an open source project by [AdminLTE.io](https://adminlte.io) that is licensed under [MIT](http://opensource.org/licenses/MIT). AdminLTE.io
-reserves the right to change the license of future releases.
-
-Latest Release
----------------
-- [AdminLTE 3](https://github.com/ColorlibHQ/AdminLTE/releases/latest)
-
-Legacy Releases
----------------
-- [AdminLTE 2](https://github.com/ColorlibHQ/AdminLTE/releases/tag/v2.4.18)
-- [AdminLTE 1](https://github.com/ColorlibHQ/AdminLTE/releases/tag/1.3.1)
-
-Change log
-----------
-Visit the [releases](https://github.com/ColorlibHQ/AdminLTE/releases) page to view the changelog
-
-Image Credits
--------------
-[Pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd)
-
-[Graphicsfuel](http://www.graphicsfuel.com/2013/02/13-high-resolution-blur-backgrounds/)
-
-[Pickaface](http://pickaface.net/)
-
-[Unsplash](https://unsplash.com/)
-
-[Uifaces](http://uifaces.com/)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
