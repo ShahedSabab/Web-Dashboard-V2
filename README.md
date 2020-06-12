@@ -9,23 +9,21 @@ The purpose of this project is to gain insights into the agricultural market dat
 • The color palettes of the visualizations are carefully chosen to support color-blind users. <br>
 
 # Desktop UI
-<img src="Web_UI.gif" width="100%">
+<img src="desktopUI.gif" width="100%">
 
 # Mobile UI
-<img src="Mobile_UI.gif" width="40%">
-
-## Interactive Tooltip
-<img src="Tooltip.gif" width="50%">
+<img src="mobileUI.gif" width="40%">
 
 ## Dynamic Table
-<img src="Dynamic_Table.gif" width="50%">
+<img src="dynamicTable.gif" width="50%">
 
 ## Incorporated Graphs (D3.js)
-<img src="PacklayoutGraph.gif" width="50%">
-<img src="BarGraph.gif" width="50%">
+<img src="packGraph.gif" width="50%">
+<img src="barNstackGraph.gif" width="50%">
+<img src="lineGraph.gif" width="50%">
 
 ## Farmbot
-<img src="Farmbot.gif" width="30%">
+<img src="farmBot.gif" width="30%">
 
 ## How to run
 Please open the index.html file.
