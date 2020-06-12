@@ -4,7 +4,7 @@ The purpose of this project is to gain insights into the agricultural market dat
 • This project is developed using bootstrap 4.<br>
 • The UI supports responsive layouts.<br>
 • For developing the visualizations, PSD Grain Data_small.xlsx has been used. <br>
-• For keeping the project simple, only "Wheat" from country "Canada" has been used for the calculations of the timeseries, barplot, crosstab, and pack layout graphs. <br>
+• For keeping the project simple, only "Wheat" from country "Canada" has been used for the calculations of the timeseries, barplot, crosstab, stackbar and pack layout graphs. <br>
 • The visualizations have been developed using chart.js and d3.js. <br>
 • The color palettes of the visualizations are carefully chosen to support color-blind users. <br>
 
